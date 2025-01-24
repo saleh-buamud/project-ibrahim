@@ -1,0 +1,121 @@
+.Gardiant-circle
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: -782px 0 0 0;
+}
+
+.Login-part
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: -430px 32% 0 0px;
+    background-color: var(--bg-color);
+    width: 32%;
+    height: 53%;
+    border: solid 2px var(--hover-color);
+    border-radius: 50px;
+    POSITION: absolute;
+}
+.ID-number
+{
+    width: 75%;
+    margin: 4% 0 0 0;
+}
+.E-Mail-Enter-titele
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    margin: -564px 39% 0 0;
+    font-size: 67px;
+    color: var(--bg-color);
+}
+.send
+{
+    margin: 9% 0 ;
+    width: 100%;
+    border-radius: 20px;
+}
+.Forget-password
+{
+    text-decoration: none;
+    margin: 6% 0 0 0;
+    color: var(--hover-color);
+}
+.Bg-circle-pic
+{
+    height: 353px;
+    width: auto;
+}
+
+.Login-pic h1
+{
+    margin-top: 21%;
+    margin-bottom: 21%;
+
+}
+.Level-choice
+{
+height: 75%;
+width: 80%;
+display: inline-flex;
+appearance: none;
+border: 3px lighten(var(--bg-color), 30%) solid;
+border-radius: 50%;
+position: relative;
+cursor: pointer;
+transition: all var(--cTiming) var(--cEasing);
+margin: 2px;
+}
+
+&:focus {
+  outline: 0;
+}
+
+&:checked {
+  background-color: var(--cActive);
+  &::after {
+    background-color: #ffffff;
+    height: calc(var(--cSize) * 0.3);
+    width: calc(var(--cSize) * 0.3);
+  }
+
+&::before {
+    animation: particleAnimate var(--cTiming) var(--cEasing) forwards;
+  }
+  + span {
+    border-color:var(--hover-color);
+    color: lighten(var(--hover-color), 60%);
+  }
+}
+&::before,
+&::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: inherit;
+  height: 0px;
+  width: 0px;
+}
+
+&::after {
+  transition: all var(--cTiming) var(--cEasing);
+}
+
+&::before {
+  --particleSize: 4px;
+  height: var(--particleSize);
+  width: var(--particleSize);
+  z-index: 2;
+}

@@ -1,0 +1,35 @@
+.student_info
+{
+    display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+.detail
+{
+    display: flex;
+}
+.title_page
+{
+    margin-bottom: 5%;
+    color: var(--bold-font-color);
+}
+form
+{
+    display: flex
+    ;
+        justify-content: center;
+        margin-top: 6%;
+}
+
+.edit
+{
+    padding: 10px 20px;
+    background: var(--hover-color);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

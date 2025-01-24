@@ -1,0 +1,629 @@
+:root{
+    --bg-color:#e2e2e2 ;
+    --nav-Color :#f4f4f4;
+    --nav-ui-li-title-size : 24px;
+    --hover-color : #4CAF50;
+    --circuler-color : #cd4141;
+    --bold-font-color:#454749;
+    --number-font-family:"Dosis", sans-serif;
+    --main-font:"Zain", sans-serif;
+}
+                                      /*------------ Public Body -------------- */
+body {
+    font-family:  var(--main-font);
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0 ;
+    padding: 0;
+    background-color: var(--bg-color) !important;
+}
+p {
+    margin: 35px 41px;
+    margin-bottom: 1rem;
+    font-size: 34px;
+    color: #757575;
+    max-width: 546px;
+    font-weight: 300;
+}
+                            /*====================== End Public Body==========================*/
+
+
+                                /* ------------- Navegation Bar ------------- */
+header {
+    background: var(--nav-Color);
+    padding: 0px 0;
+    border-bottom: 1px solid var(--nav-Color);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.container {
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: flex-start !important;
+    flex-wrap: initial;
+}
+
+
+.header-title-nav
+{
+    list-style: none;
+    padding: 0;
+    margin: 0 50px -50px 0px;
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+.logo{
+        width: 100px;
+        height: 75px;
+    }
+
+.School-Name {
+font-size: 48px;
+display: flex;
+justify-content: flex-end;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 100px;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: var(--nav-ui-li-title-size);
+    padding: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 30px;
+    padding: 0px;
+}
+nav ul li a:focus,
+nav ul li a:hover
+{
+    font-style: bold;
+    border-bottom: 2px solid;
+    border-bottom: var(--hover-color);
+    color: var(--hover-color);
+}
+
+.Login-botton {
+    padding: 10px 20px;
+    background: var(--hover-color);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.Logout-botton {
+    padding: 10px 20px;
+    background: #d45454;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+                    /*=================== End Navegation Bar =============================*/
+
+                             /*  --------- First section  -----------  */
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+
+
+
+.hero-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    max-width: 700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: flex-start;
+}
+
+.main-pic {
+       image-rendering: auto;
+    height: auto;
+    width: 950px;
+    margin-left: -305px;
+
+}
+
+.Students
+{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #4CAF50;
+    font-size: 148px;
+    margin: 0px  -133px;
+    padding: 2px;
+}
+.students-pargraph {
+    font-family: "Beiruti", sans-serif;
+    font-weight: 300;
+    margin-top: -70px;
+    margin:-8px 36px  9px;
+    font-size: 96px;
+    color: var(--bold-font-color) ;
+
+}
+
+section div button {
+    cursor: pointer;
+    color: var(--hover-color);
+    border: 1px var(--hover-color) solid;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 36px;
+    padding: 6px 23px;
+    MARGIN: 0px 36px;
+}
+.card-body
+{
+    height: 370px;
+    max-width: 400px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 0px 0px;
+}
+
+.Cards
+{
+    height: 430px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-right: 14.8%;
+    margin-top: -87px;
+}
+
+.circuler
+{
+    background-color: var(--circuler-color);
+    border-radius: 300px;
+    height: 100px;
+    width: 100px;
+    margin: 14px 27px;
+}
+.card-contant
+{
+    padding: 10px;
+    margin: 10px 50px;
+}
+.card-title
+{
+    font-size: 32px;
+    color: #5b5b5b;
+}
+.H-Line
+{
+    background-color: var(--circuler-color);
+    width: 30%;
+    height: 3px;
+    margin: 10px 0;
+
+}
+.card-texxt
+{
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 20px 0px 0 -20px;
+    text-align: justify;
+}
+.col img
+{
+    height: 64px;
+    width: auto;
+    margin: 17px 16px;
+}
+    /* Cards */
+    .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+
+              }
+
+    .feature {
+    text-align: center;
+    max-width: 300px;
+             }
+                         /* ==================== End Cards ========================= */
+
+                          /*================ End First section =====================*/
+
+                                /*  --------- statistics  -----------  */
+
+.statistics {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 2% 0;
+
+}
+.Points-title
+{
+    color: #454749;
+    font-weight: 500;
+}
+.stat
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.points
+{
+    font-family: var(--number-font-family);
+    font-size: 69px;
+    color: var(--hover-color);
+    font-weight: 500;
+}
+                          /*================ End statistics =====================*/
+
+                          /*  --------- Main-pargraph  -----------  */
+.Main-pargraph{
+margin: 5% 10% 0 10%;
+}
+.Main-pargraph-title
+{
+font-size: 39px;
+color: var(--bold-font-color);
+}
+.H-Line-title
+{
+    margin: 2% 0 0 0;
+    width: 9%;
+    height: 5px;
+    background: var(--circuler-color);
+}
+.Main-pargraph-Text-img
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Main-pargraph-text-link
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 50% ;
+
+}
+.Main-pargraph-text
+{
+    margin: 0% 5% 0 0%;
+    padding: 0;
+    max-width: 100%;
+    text-align: justify;
+}
+.Chainese-boy
+{
+    height: 800px;
+    width: auto;
+    margin: -10% 13% 0 0;
+}
+.Link
+{
+    text-decoration: none;
+    color: var(--hover-color);
+    font-size: 30px;
+    font-weight: 400;
+    margin: 24px 5%;
+    MAX-WIDTH: fit-content;
+}
+                        /*================ Main-pargraph =====================*/
+                               /*  --------- Feed Back  -----------  */
+.card-body-feedback
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 10% -3% 0 0;
+}
+.Card-feedback
+{
+    max-width: 30%;
+    margin: 0 3.5% 0 0;
+}
+.Stars-image
+{
+    margin: 7% 20% 57px 0;
+    display: flex;
+    justify-content: normal;
+    height: 40px;
+    width: auto;
+    max-width: 30%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.Card-img-top-star:hover
+{
+    background-image: url(../images/star\ border.png);
+}
+
+.Feedback-card-texxt
+{
+    font-family: var(--main-font);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 20px 0px 0 -20px;
+    text-align: justify;
+}
+.Feedback-contact-info
+{
+    display: flex;
+
+}
+.feedback-pic{
+    height: 150px;
+    width: auto;
+    margin: 20% -19%;
+    border: solid;
+    border-radius: 100px;
+    border-width: 0px;
+    border-image-width: 8px;
+}
+.Feedback-contact-detailes
+{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-start;
+    margin: 89px 94px 0 0;
+}
+
+.teacher {
+    display: flex;
+    width: 3000px;
+    margin: 0 100px;
+
+}
+
+.Feedback-contact-name
+{
+    color: var(--bold-font-color);
+}
+
+.Card-img-top-star
+{
+    margin: 0 3%;
+}
+
+.Feedback-massege
+{
+    color: var(--hover-color);
+    font-size: 24px;
+    text-decoration: none;
+    width: fit-content;
+    margin: 0 30%;
+}
+
+               /*================ End Feed back =====================*/
+                               /*  --------- activities  -----------  */
+
+.Activites-body
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 10% 0 ;
+}
+
+.Activity-card
+{
+    background-color: #fff;
+    border: solid 1px var(--bg-color);
+    border-radius: 50px;
+    height: 562px;
+    width: 500px;
+    max-width: 600px;
+    min-width: 400px;
+    overflow: hidden;
+    margin: 0 2%;
+}
+.Activity-img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.Activity-title
+{
+  color: var(--hover-color);
+  text-align: center;
+  margin-top:7% ;
+}
+.Activity-p
+{
+    text-align: justify;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+
+                          /*================ End activities =====================*/
+                             /*  --------- E-Mail  -----------  */
+
+
+.newsletter {
+    text-align: center;
+    padding: 50px 20px;
+    width: 100%;
+
+}
+.Green-title
+{
+    font-family: var(--main-font);
+    color: var(--hover-color);
+}
+.E-Mail-Enter-titele
+{
+    margin: 4% 37% -1% 0%;
+    font-weight: 500;
+    font-size: 46px;
+}
+.E-mail-pargraph
+{
+
+    max-width: 470px;
+    height: auto;
+    margin: 2% 0;
+    font-size: 21px;
+}
+input
+{
+        width: 800px;
+        height: 65px;
+        border-radius: 19px;
+        text-align: center;
+        border-color: #c1bebe;
+        border-style: solid;
+        background: transparent;
+        font-size: 24px;
+}
+input:focus,
+textarea:focus
+
+{
+    border-color: var(--hover-color);
+    outline: none;
+    color: var(--hover-color);
+}
+input:focus::placeholder
+{
+    color: var(--hover-color);
+}
+.E-mail-pargraph-div
+{
+    width: 100%;
+    display: flex;
+    justify-content: center; /* توسيط أفقي */
+    align-items: center;
+    text-align: center;
+}
+.send
+{
+    padding: 10px 20px;
+    height: 59px;
+    width: 134px;
+    margin: 0 20px;
+    background: var(--hover-color);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+footer div ul
+{
+    width: 800px;
+    color: var(--bold-font-color);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer div ul li
+{
+    margin: 25px 19%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer div div ul li a
+{
+    color: var(--bold-font-color);
+    text-decoration: none;
+    font-size: 20px;
+}
+.Social-icons
+{
+    height: 52px;
+    width: auto;
+    margin: 20px;
+}
+footer p
+{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+                          /*================ End E-Mail =====================*/
+                               /*  --------- Footer  -----------  */
+
+
+
+footer {
+    color: var(--bold-font-color);
+    border-top:2px #bebcbc solid ;
+    margin: 0 5%;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+
+                          /*================ End Footer =====================*/
+
+

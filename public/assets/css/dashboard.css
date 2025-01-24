@@ -1,0 +1,70 @@
+/* إعادة تعيين بعض القيم الافتراضية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* إعدادات أساسية للجسم */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* الحاوية الرئيسية (تحتوي على sidebar والمحتوى) */
+.container {
+    display: flex;
+}
+
+/* تصميم الـ Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    height: 100vh; /* ملء الشاشة بالكامل */
+    padding-top: 20px;
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-header h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.sidebar-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-nav ul li {
+    padding: 15px 20px;
+}
+
+.sidebar-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+}
+
+.sidebar-nav ul li a:hover {
+    background-color: #444;
+    color: #f4f4f4;
+}
+
+/* تصميم المحتوى الرئيسي */
+.content {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 250px; /* لتحريك المحتوى ليكون بجانب الـ Sidebar */
+}
+
+.content h1 {
+    font-size: 32px;
+    color: #333;
+}

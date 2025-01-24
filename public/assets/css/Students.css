@@ -1,0 +1,140 @@
+.student-Background img
+{
+    width: 100%;
+    margin: -0 0 0 0;
+}
+
+.welcome-Student
+{
+    position: absolute;
+    top: 300px;
+    font-size: 128px;
+    left: 544px;
+    color: white;
+}
+
+.student-Ditailes
+{
+       margin: 0px 0 -373px 0;
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    bottom: 994px;
+}
+
+.students-Name
+{
+    font-size: 48px;
+    margin: 2% 600px 0 0;
+
+}
+
+.name-Pic-level p
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 79% 0 0;
+    font-size: 24px;
+}
+
+.student-Info
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.student-Pic
+{
+    width: 331px;
+    margin: 0 10% 0 0;
+    height: auto;
+}
+
+.student-Pic img
+{
+    border-radius: 50%;
+    border: 9px solid var(--hover-color);
+    margin: -300px 0 0 0;
+}
+.rating-Installments-Commitment
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 0% 0 6%;
+}
+
+.Commitment label
+{
+    color: #a4a7ab;
+    font-size: 28px;
+    margin: 35px 0 16% 0;
+}
+
+.Commitment
+{
+    margin: 0 3%;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Commitment-count
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Commitment-count h6
+{
+    font-size: 62px;
+}
+
+.level-Price
+{
+    font-size: 28px;
+    color: #9e9d9d;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0;
+        color: var(--hover-color);
+    font-size: 48px;
+}
+table
+{
+    margin: 3% 5% 0px 5%;
+    font-size: 29px;
+    width: 90%;
+    border-radius: 20px;
+    border: 2px solid var(--hover-color);
+}
+
+
+th
+{
+    color: var(--hover-color);
+    padding: 22px 44px 0 0;
+    text-align: center;
+}
+
+td
+{
+    padding: 22px 44px 0 0;
+    text-align: center;
+
+}
+
+.Counter_level
+{
+    font-size: 38px;
+    text-align: center;
+}

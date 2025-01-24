@@ -1,0 +1,180 @@
+.Login-part
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: -540px 7% 0 0px;
+    background-color: var(--bg-color);
+    width: 83%;
+    height: 74%;
+    border: solid 2px var(--hover-color);
+    border-radius: 50px;
+    POSITION: absolute;
+}
+
+
+.E-Mail-Enter-titele {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    margin: -659px 39% 0 0;
+    font-size: 67px;
+    color: var(--bg-color);
+}
+.Login-picture
+{
+    width: 110%;
+    margin: 8px 7% 0px -15%;
+    max-width: 83.5%;
+
+}
+
+.Login-part
+{
+    display: flex
+;
+    justify-content: space-between;
+}
+
+.logim-dtailes
+{
+    display: flex;
+    max-width: 41%;
+    margin: 0 2%;
+    flex-direction: column;
+}
+
+.Name
+{
+    display: flex;
+        width: 290%;
+        margin: 25px 0 0 0;
+}
+
+.First-name
+{
+    width: 25%;
+    border: 2px solid var(--bold-font-color);
+    margin: 0 20px;
+}
+
+.Job-password
+{
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 303px;
+    }
+
+
+.Password-box
+{
+    width: 98%;
+
+
+}
+
+.Password-reg
+{
+    margin: 25px 0 0 0;
+    width: 558%;
+}
+
+form
+{
+    margin: 0 0 0 -10%;
+}
+.form
+{
+    margin: 159px 73px 0 0;
+    width: 571px;
+}
+
+form label
+{
+    font-size: 24px;
+    margin:  10px 500px 0 0 ;
+}
+
+.inputs
+{
+
+    display: grid;
+    margin: -313px 467px 0 0;
+}
+
+.input
+{
+    transform: scale(0.7);
+    margin:  8px 0 0 0;
+    border-color: var(--hover-color);
+    border: 2px solid var(--hover-color); /* حدود الزر باللون الرمادي */
+            border-radius: 50%;      /* جعل الزر دائري */
+            background-color: white; /* خلفية بيضاء عند عدم التحديد */
+            appearance:inherit;        /* إخفاء التصميم الافتراضي للزر */
+            width: 20px;             /* عرض الزر */
+            height: 20px;            /* ارتفاع الزر */
+            position: relative;
+}
+
+.inputs label
+{
+    width: 365px;
+    margin: -14px 0px 0 0;
+}
+.input:checked
+{
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+.input :checked ::before
+{
+content: '';
+position: absolute;
+top: 4px;
+left: 4px;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+background-color:var(--hover-color); /* تغيير اللون إلى الأخضر عند التحديد */
+}
+
+.list_box
+{
+    width: 25%;
+    height: 65px;
+    border-radius: 19px;
+    text-align: center;
+    border: 2px solid var(--bold-font-color) ;
+    background: transparent;
+    font-size: 24px;
+}
+
+.list_box:focus {
+    border-color: var(--hover-color); /* تغيير اللون إلى الأخضر */
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.5); /* إضافة تأثير ظلي */
+}
+
+
+.send
+{
+    display: flex;
+        text-decoration: none;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+        font-size: 24px;
+        width: 857px;
+        height: 79px;
+        margin: 30px 20px;
+        padding: 10px 20px;
+        background: var(--hover-color);
+        border-radius: 10px;
+        color: #fff;
+        border: none;
+    }
